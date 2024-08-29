@@ -11,11 +11,15 @@
   font-variation-settings: "wdth" 100;
   margin: 0;
   padding: 0; 
+  box-sizing: border-box;
 }
 body{
   background-image: url('/imagenes/BACKGROUND.jpg');
   background-repeat: no-repeat;
   
+}
+.global {
+  padding: 23px;
 }
 .cabezera{
   display: flex;
@@ -31,3 +35,72 @@ body{
   border-style: solid;
   border-color: white;
 }
+
+
+.profile {
+  display: flex;
+  background-color:var(--blanco--);
+  width: 353px;
+  margin-left:10px;
+  margin-top: 80px;
+  border-radius: 30px;
+  padding: 12px;
+  flex-direction: column;
+  box-shadow: 10px 10px 20px rgba(4, 107, 165, 0.5);
+}
+.img-profile {
+    margin: 0 auto;
+    border-color: #FFFFFF;
+    margin-top: -65px;
+    border-color: #ffff;
+    border-radius: 45px;
+    border: 5px solid white;
+    width: 92.59px;
+    height: 86.09px;
+    top: -13px;
+    left: -44px;
+}
+.profile h2{
+    font-weight: 700;
+    font-size: 18px;
+    text-align: center;
+    margin-top: 12px;
+    font-weight: 700;
+    
+}
+.profile p{
+  font-weight: 400;
+  font-size: 12px;
+  text-align:center;
+  padding-bottom: 10px;
+  margin-top:10px ;
+}
+.boton {
+  display: flex;
+  margin-top: auto;
+    justify-content: space-around;
+    
+}
+.boton button:nth-child(1){
+  font-weight: 900;
+    font-size: 18px;
+    width:242px;
+    Height: 48px;
+    border-radius: 12px;
+    border-style: none;
+    background-color: var(--azul--);
+    margin-top: 15px;
+    margin-bottom: 5px;
+    color: var(--blanco--);
+    font-weight: 600;
+}
+.boton button:nth-child(2){
+    width: 51.117px;    
+    height: 48.428px;
+    border-radius: 12px;
+    background-color: var(--cielo--);
+    border-color: transparent;
+    margin-top: 15px;
+    margin-bottom: 5px;
+}
+
