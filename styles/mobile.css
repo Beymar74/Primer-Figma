@@ -103,4 +103,56 @@ body{
     margin-top: 15px;
     margin-bottom: 5px;
 }
+.segunda-parte {
+  display: flex;
+  /*justify-content: center;*/
+  align-items:flex-start;
+  height: 100vh;
+  margin-top: 25px;
+}
+
+.rectangle-follow {
+  background-color: var(--naranja--);
+  border-radius: 25px; 
+  padding: 20px;
+  /*text-align: center;*/
+  color: var(--blanco--);
+  width: 90px;
+  display: flex;
+  flex-direction: column;
+  gap: 50px;
+  position: relative;
+  margin-right: 20px;
+}
+
+.rectangle-follow div {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 10px 0;
+  position: relative;
+}
+
+.rectangle-follow div:not(:last-child)::after {
+  content: '';
+  width: 60%;
+  height: 1px;
+  background-color: rgb(172, 168, 168);
+  position: absolute;
+  bottom: 0;
+  left: 50%;
+  transform: translateX(-50%);
+}
+
+.rectangle-follow h1 {
+  font-size: 24px;
+  font-weight: 700;
+  margin-bottom: 5px;
+}
+
+.rectangle-follow p {
+  font-size: 16px;
+  font-weight: 400;
+  margin: 0;
+}
 
