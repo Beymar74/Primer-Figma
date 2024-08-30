@@ -40,7 +40,7 @@ border-color: white;
 .profile {
 display: flex;
 background-color:var(--blanco--);
-width: 353px;
+width: 385px;
 margin-left:1px;
 margin-top: 80px;
 border-radius: 30px;
@@ -107,8 +107,8 @@ font-weight: 900;
 display: flex;
 justify-content: center;
 align-items:flex-start;
-height: 100vh;
-margin-top: 0px;
+height: 50vh;
+margin-top: 40px;
 }
 
 .rectangle-follow {
@@ -158,25 +158,26 @@ margin: 0;
 .imag {
 display: flex;
 flex-direction: column; /* Alinea Friends y Gallery verticalmente */
-gap: 20px; /* Espacio entre Friends y Gallery */
-padding: 0px;
+/* Espacio entre Friends y Gallery */
+margin: 0;
+padding: 0;
 }
 .friends, .gallery {
-text-align: left;
+
 font-size:12px;
-padding:0px 10px 0px 0px;
+padding:0px 0px 0px 0px;
 }
 
 .cimg {
-width: 69px;
-height: 69px;
-padding: 0px 10px 0px 0px;
+width: 80px;
+height: 80px;
+padding: 0px 6px 0px 0px;
 
  /* Espacio entre las imágenes / / Borde blanco para resaltar las imágenes */
 }
 .midimg{
-width: 32px; /* Ajusta el ancho de la imagen a 100 píxeles */
-height: 69px;
+width: 40px; /* Ajusta el ancho de la imagen a 100 píxeles */
+height: 80px;
 padding: 0px 0px 0px 0px;
 }
 .gallery {
@@ -188,12 +189,17 @@ text-align:left;
 display: grid;
 grid-template-columns: repeat(3, 1fr); /* Tres columnas iguales */
 gap: 8px; /* Espacio entre las imágenes */
-padding: 0px 16px 10px 5px; /* Añade padding lateral para dar espacio */
+padding: 0px 16px 10px 5px;
 }
 
 .galery-img{
-width: 110px;
-height: 110px;
+width: 120px;
+height: 120px;
+}
+.midgaimg{
+  width: 30px;
+height: 120px;
+
 }
 .radiusimg {
 border-bottom-left-radius: 20px;
