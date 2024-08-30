@@ -172,11 +172,9 @@ padding:0px 0px 0px 0px;
 width: 80px;
 height: 80px;
 padding: 0px 6px 0px 0px;
-
- /* Espacio entre las imágenes / / Borde blanco para resaltar las imágenes */
 }
 .midimg{
-width: 40px; /* Ajusta el ancho de la imagen a 100 píxeles */
+width: 40px; 
 height: 80px;
 padding: 0px 0px 0px 0px;
 }
@@ -187,8 +185,8 @@ text-align:left;
 .gallery-primergallery,
 .gallery-secondgallery {
 display: grid;
-grid-template-columns: repeat(3, 1fr); /* Tres columnas iguales */
-gap: 8px; /* Espacio entre las imágenes */
+grid-template-columns: repeat(3, 1fr); 
+gap: 8px; 
 padding: 0px 16px 10px 5px;
 }
 
