@@ -159,8 +159,8 @@ margin: 0;
 }
 .imag {
 display: flex;
-flex-direction: column; /* Alinea Friends y Gallery verticalmente */
-gap: 20px; /* Espacio entre Friends y Gallery */
+flex-direction: column; 
+gap: 20px; 
 padding: 0px;
 }
 .friends, .gallery {
@@ -176,21 +176,32 @@ width: 69px;
 height: 69px;
 padding: 0px 10px 0px 0px;
 
- /* Espacio entre las imágenes / / Borde blanco para resaltar las imágenes */
 }
 .midimg{
-width: 32px; /* Ajusta el ancho de la imagen a 100 píxeles */
+width: 32px; 
 height: 69px;
 padding: 0px 0px 0px 0px;
+}
+.gallery {
+text-align:left;
 }
 
 
 .gallery-primergallery,
 .gallery-secondgallery {
 display: grid;
-grid-template-columns: repeat(3, 1fr); /* Tres columnas iguales */
-gap: 8px; /* Espacio entre las imágenes */
-padding: 0px 16px 10px 5px; /* Añade padding lateral para dar espacio */
+grid-template-columns: repeat(3, 1fr); 
+gap: 8px; 
+padding: 0px 16px 10px 5px;
 }
 
-
+.galery-img{
+width: 110px;
+height: 110px;
+}
+.radiusimg {
+border-bottom-left-radius: 20px;
+}
+.radiuimg{
+  border-top-left-radius: 20px;
+}
