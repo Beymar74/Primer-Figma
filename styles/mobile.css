@@ -14,20 +14,28 @@ padding: 0;
 box-sizing: border-box;
 }
 body{
-background-image: url('/imagenes/BACKGROUND.jpg');
+background-image: url('./imagenes/BACKGROUND.jpg');
 background-repeat: no-repeat;
 
 }
 .global {
-padding: 10px;
+
+max-width:414px ;
+}
+.iconouno {
+  margin-left: 25px;
 }
 .cabezera{
 display: flex;
 justify-content: space-between;
+margin-right: 25px;
+margin-top: 24px;
 }
 .nav-bar{
 display: flex;
 justify-content: space-between;
+margin-left: 30px;
+margin-right: 30px;
 }
 .img-profile{
 border-radius: 100%;
@@ -41,7 +49,7 @@ border-color: white;
 display: flex;
 background-color:var(--blanco--);
 width: 353px;
-margin-left:1px;
+margin-left: 32px;
 margin-top: 80px;
 border-radius: 30px;
 padding: 12px;
@@ -120,6 +128,7 @@ padding: 20px;
 text-align: center;
 color: var(--blanco--);
 width: 90px;
+height: 397px;
 display: flex;
 flex-direction: column;
 gap: 50px;
@@ -167,14 +176,16 @@ padding: 0px;
 text-align: left;
 font-size:12px;
 padding:0px 10px 0px 0px;
+margin-top: 5px;
 }
 .imgrdn{
-  margin-left: 8%;
+  margin-left: 1%;
+  margin-top: 12px;
 }
 .cimg {
 width: 69px;
 height: 69px;
-padding: 0px 10px 0px 0px;
+margin: 0px 5px 0px 0px;
 
 }
 .midimg{
@@ -185,14 +196,12 @@ padding: 0px 0px 0px 0px;
 .gallery {
 text-align:left;
 }
-
-
 .gallery-primergallery,
 .gallery-secondgallery {
 display: grid;
 grid-template-columns: repeat(3, 1fr); 
 gap: 8px; 
-padding: 0px 16px 10px 5px;
+margin: 12px 0px 10px 5px;
 }
 
 .galery-img{
@@ -204,4 +213,7 @@ border-bottom-left-radius: 20px;
 }
 .radiuimg{
   border-top-left-radius: 20px;
+}
+.final-parte{
+  margin-top: 20px;
 }
